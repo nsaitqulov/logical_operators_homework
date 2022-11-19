@@ -9,7 +9,11 @@ def main(a,b,c):
         bool: answer
     """
     x=a<b
-    y=b<c
-    return x and y
+    x1=b<c
+    x3=x and x1
+    y=a>b
+    y1=b>c
+    y3=y and y1
+    return x3 or y3
 
-print(main(1, 4, 5))
+print(main(6, 5, 4))
