@@ -6,4 +6,9 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    x=a%10
+    a//=10
+    y=a%10
+    return (x+y)%2==1
+
+print(main(35))
