@@ -26,4 +26,4 @@ def main(n):
         return "True"
     if x+x1+x2+x3+x4<=2:
         return "False"
-print(main(1100))
+print(main(11100))
