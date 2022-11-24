@@ -8,5 +8,22 @@ def main(n):
     Returns:
         bool: answer
     """
+    x=n%10
+    n//=10
 
-    return
+    x1=n%10
+    n//=10
+
+    x2=n%10
+    n//=10
+
+    x3=n%10
+    n//=10
+
+    x4=n%10
+
+    if x+x1+x2+x3+x4>2:
+        return "True"
+    if x+x1+x2+x3+x4<=2:
+        return "False"
+print(main(1100))
